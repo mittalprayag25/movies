@@ -1,0 +1,395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The MovieDetail component should render Unknown release date with incorrect date 1`] = `
+<div>
+  <div
+    class="MuiGrid-root Component-rootContainter-7 MuiGrid-container MuiGrid-spacing-xs-6"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root Component-card-8 MuiPaper-elevation0 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Back To Movie List
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root Component-card-8 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item"
+          >
+            <img
+              alt="I am a test movie"
+              class="MuiCardMedia-root Component-media-10 MuiCardMedia-media MuiCardMedia-img"
+              src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
+              title="I am a test movie"
+            />
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+          >
+            <div
+              class="MuiCardContent-root"
+            >
+              <h3
+                class="MuiTypography-root MuiTypography-h3"
+              >
+                I am a test movie
+              </h3>
+              <span
+                class="MuiTypography-root MuiTypography-overline MuiTypography-gutterBottom"
+              >
+                Unknown release date
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6"
+              >
+                Runtime
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              >
+                NaN
+                h 
+                NaN
+                m
+              </p>
+              <h6
+                class="MuiTypography-root MuiTypography-h6"
+              >
+                Overview
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              />
+              <span
+                class="MuiRating-root"
+              >
+                <label
+                  class="MuiRating-label"
+                  for="simple-controlled-1"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    1 Star
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="simple-controlled-1"
+                  name="simple-controlled"
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="simple-controlled-2"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    2 Stars
+                  </span>
+                </label>
+                <input
+                  checked=""
+                  class="MuiRating-visuallyhidden"
+                  id="simple-controlled-2"
+                  name="simple-controlled"
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="simple-controlled-3"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    3 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="simple-controlled-3"
+                  name="simple-controlled"
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="simple-controlled-4"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    4 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="simple-controlled-4"
+                  name="simple-controlled"
+                  type="radio"
+                  value="4"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="simple-controlled-5"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="simple-controlled-5"
+                  name="simple-controlled"
+                  type="radio"
+                  value="5"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root Component-card-8 Component-topBilledCastsCard-9 MuiPaper-elevation0 MuiPaper-rounded"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              Top Billed Cast
+            </h5>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-item MuiGrid-grid-xs-12"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The MovieDetail component should render movie title and release date 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="MuiGrid-root Component-rootContainter-1 MuiGrid-container MuiGrid-spacing-xs-6"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root Component-card-2 MuiPaper-elevation0 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Back To Movie List
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root Component-card-2 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item"
+          >
+            <img
+              alt="I am a test movie"
+              class="MuiCardMedia-root Component-media-4 MuiCardMedia-media MuiCardMedia-img"
+              src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
+              title="I am a test movie"
+            />
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+          >
+            <div
+              class="MuiCardContent-root"
+            >
+              <h3
+                class="MuiTypography-root MuiTypography-h3"
+              >
+                I am a test movie
+              </h3>
+              <span
+                class="MuiTypography-root MuiTypography-overline MuiTypography-gutterBottom"
+              >
+                March 24, 2021
+              </span>
+              <h6
+                class="MuiTypography-root MuiTypography-h6"
+              >
+                Runtime
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              >
+                2
+                h 
+                0
+                m
+              </p>
+              <h6
+                class="MuiTypography-root MuiTypography-h6"
+              >
+                Overview
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root Component-card-2 Component-topBilledCastsCard-3 MuiPaper-elevation0 MuiPaper-rounded"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              Top Billed Cast
+            </h5>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-item MuiGrid-grid-xs-12"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

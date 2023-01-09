@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The MovieCard component should render movie title and release date 1`] = `
+<div
+  class="MuiPaper-root MuiCard-root Component-backdropCard-1 MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <button
+    class="MuiButtonBase-root MuiCardActionArea-root"
+    tabindex="0"
+    type="button"
+  >
+    <img
+      alt="I am a test movie"
+      class="MuiCardMedia-root Component-media-3 MuiCardMedia-media MuiCardMedia-img"
+      title="I am a test movie"
+    />
+    <div
+      class="MuiCardContent-root"
+    >
+      <h2
+        class="MuiTypography-root MuiTypography-h6"
+      >
+        I am a test movie
+      </h2>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        March 24, 2021
+      </p>
+    </div>
+    <span
+      class="MuiCardActionArea-focusHighlight"
+    />
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`The MovieCard component should render rating if provided and greater then zero 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root Component-backdropCard-4 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      class="MuiButtonBase-root MuiCardActionArea-root"
+      tabindex="0"
+      type="button"
+    >
+      <img
+        alt="I am a test movie"
+        class="MuiCardMedia-root Component-media-6 MuiCardMedia-media MuiCardMedia-img"
+        title="I am a test movie"
+      />
+      <div
+        class="MuiCardContent-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h6"
+        >
+          I am a test movie
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          March 24, 2021
+        </p>
+        <span
+          class="MuiRating-root"
+        >
+          <label
+            class="MuiRating-label"
+            for="simple-controlled-1"
+          >
+            <span
+              class="MuiRating-icon MuiRating-iconFilled"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiRating-visuallyhidden"
+            >
+              1 Star
+            </span>
+          </label>
+          <input
+            class="MuiRating-visuallyhidden"
+            id="simple-controlled-1"
+            name="simple-controlled"
+            type="radio"
+            value="1"
+          />
+          <label
+            class="MuiRating-label"
+            for="simple-controlled-2"
+          >
+            <span
+              class="MuiRating-icon MuiRating-iconFilled"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiRating-visuallyhidden"
+            >
+              2 Stars
+            </span>
+          </label>
+          <input
+            checked=""
+            class="MuiRating-visuallyhidden"
+            id="simple-controlled-2"
+            name="simple-controlled"
+            type="radio"
+            value="2"
+          />
+          <label
+            class="MuiRating-label"
+            for="simple-controlled-3"
+          >
+            <span
+              class="MuiRating-icon MuiRating-iconEmpty"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiRating-visuallyhidden"
+            >
+              3 Stars
+            </span>
+          </label>
+          <input
+            class="MuiRating-visuallyhidden"
+            id="simple-controlled-3"
+            name="simple-controlled"
+            type="radio"
+            value="3"
+          />
+          <label
+            class="MuiRating-label"
+            for="simple-controlled-4"
+          >
+            <span
+              class="MuiRating-icon MuiRating-iconEmpty"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiRating-visuallyhidden"
+            >
+              4 Stars
+            </span>
+          </label>
+          <input
+            class="MuiRating-visuallyhidden"
+            id="simple-controlled-4"
+            name="simple-controlled"
+            type="radio"
+            value="4"
+          />
+          <label
+            class="MuiRating-label"
+            for="simple-controlled-5"
+          >
+            <span
+              class="MuiRating-icon MuiRating-iconEmpty"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiRating-visuallyhidden"
+            >
+              5 Stars
+            </span>
+          </label>
+          <input
+            class="MuiRating-visuallyhidden"
+            id="simple-controlled-5"
+            name="simple-controlled"
+            type="radio"
+            value="5"
+          />
+        </span>
+      </div>
+      <span
+        class="MuiCardActionArea-focusHighlight"
+      />
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`The MovieCard component should render text for incorrect date 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root Component-backdropCard-7 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      class="MuiButtonBase-root MuiCardActionArea-root"
+      tabindex="0"
+      type="button"
+    >
+      <img
+        alt="I am a test movie"
+        class="MuiCardMedia-root Component-media-9 MuiCardMedia-media MuiCardMedia-img"
+        title="I am a test movie"
+      />
+      <div
+        class="MuiCardContent-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h6"
+        >
+          I am a test movie
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Unknown release date
+        </p>
+      </div>
+      <span
+        class="MuiCardActionArea-focusHighlight"
+      />
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`The MovieCard component should render when card is small 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root Component-posterCard-11 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      class="MuiButtonBase-root MuiCardActionArea-root"
+      tabindex="0"
+      type="button"
+    >
+      <img
+        alt="I am a test movie"
+        class="MuiCardMedia-root Component-media-12 MuiCardMedia-media MuiCardMedia-img"
+        src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
+        title="I am a test movie"
+      />
+      <div
+        class="MuiCardContent-root"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle2"
+        >
+          I am a test movie
+        </h6>
+      </div>
+      <span
+        class="MuiCardActionArea-focusHighlight"
+      />
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
